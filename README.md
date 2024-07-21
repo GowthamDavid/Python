@@ -71,7 +71,7 @@ Connects to the MySQL database using provided credentials.
 ### 3. Sign-Up Prompt:
 #### Displays a sign-up form.
 #### Adds new user credentials to the database.
-### Landing Page with Data Visualizations:
+### 4. Landing Page with Data Visualizations:
 #### Queries data from the database.
 #### Visualizes the data using Matplotlib and Seaborn, embedding the plots in the Tkinter window.
 ### 5. Main Application Loop:

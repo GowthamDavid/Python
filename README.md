@@ -12,33 +12,33 @@
 
 ## Prerequisites
 
-#### . Python 3.x
-#### OpenCV
-#### face_recognition
-#### mysql-connector-python
-#### A MySQL server with a database named presenting
+#### > Python 3.x
+#### > OpenCV
+#### > face_recognition
+#### > mysql-connector-python
+#### > A MySQL server with a database named presenting
 
 ## Code Explanation
 
-### Database Connection:
+### > Database Connection:
 #### Establishes a connection to a MySQL database and ensures the required column (FaceCount) exists in the collecting_data table.
 
-### Face Detection:
+### > Face Detection:
 #### The highlightFace function uses OpenCV's DNN module to detect faces in an image and draw bounding boxes around them.
 
-### Age and Gender Prediction:
+### > Age and Gender Prediction:
 #### Uses pre-trained models to predict the age and gender of detected faces.
 
-### Face Recognition:
+### > Face Recognition:
 #### Utilizes face_recognition to generate face encodings and compare them against known encodings to recognize previously seen faces.
 
-### Database Operations:
+### > Database Operations:
 #### Inserts new detections into the database and updates the detection count for recognized faces.
 
-### Real-Time Processing:
+### > Real-Time Processing:
 #### Continuously captures frames from a video stream, processes them for face detection and recognition, and updates the display with demographic information.
 
 ## Dependencies
-### OpenCV
-### face_recognition
-### mysql-connector-python
+#### > OpenCV
+#### > face_recognition
+#### > mysql-connector-python

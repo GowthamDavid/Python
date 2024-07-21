@@ -12,7 +12,7 @@
 
 ## Prerequisites
 
-#### Python 3.x
+#### . Python 3.x
 #### OpenCV
 #### face_recognition
 #### mysql-connector-python
